@@ -2,46 +2,132 @@
 body
 {
     font-family: 'Raleway', sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
 
 /* Barre de navigation */
 
+header
+{
+ background-color: #fff;
+ color: black;
+ 
+
+}
+
+header nav
+{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ padding: 20px;
+
+}
+
+header nav a 
+{
+ color:#0065FC ;
+ text-decoration: none;
+ margin-right: 10px;
+
+}
+
+header nav a:hover
+{
+ color: black;   
+ border-top: 1px solid #0065FC; padding-top: 10px;
+}
 
 #logo
 {
-    width: 80px;
-    height: 60px;
+    width: 80px; height: 50px;
+    
 }
 
-nav
+/* Fin du Header */
+
+/* debut section filtres */
+
+header .filtres_principale 
 {
-    text-decoration:none;
+background-color: #fff;
+margin-top: 5px;
+}
+
+.Titres h1
+{
+    color: black;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.Titres h2
+{
+    color:gray;
+    font-size: 1.0em;
+}
+
+input
+{
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+}
+
+.barre_recherche i 
+{
+    padding: 10px;
+    background-color:#DEEBFF
+}
+
+button
+{
+    color: #fff;
+    padding: 10px;
+    margin: 7px;
+    background-color: #0065FC;
+    border-radius: 0px 8px 8px 0px ;
+    border: none;
+}
+
+.filtre
+
+{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-end; 
-    justify-content: space-between;
+    justify-content: left;
+    background-color: #fff;
+    color: black;
+    margin: 20px 0px 20px 0px;
 }
 
-#menu
-{
-    
-    list-style-type: none;
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-between; 
-    align-items: flex-end;
-} 
+.filtre a 
 
-#menu li
 {
-    font-size:17px; 
-    margin-right:10px; 
-    cursor:pointor; 
-    display: flex; 
-    flex-wrap: wrap;
+ text-decoration: none;
+ color: #000000;
+ font-size: 1.0em;
+ }
+
+.filtre i 
+{
+    color: #0065FC;
+    border-color:  #0065FC;
+    border-radius: 10px;
+    padding: 6px;
+    margin: 6px; ;
+    background-color:#DEEBFF;
     
-} 
+}
+
+.Economie a 
+{
+    color: #000000;
+    border-radius: 20px;
+    padding: 10px;
+    border-color: #DEEBFF;
+}
 
 
 
