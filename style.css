@@ -12,6 +12,8 @@ header
 {
  background-color: #fff;
  color: black;
+ padding: 0px 10px;
+ font-family: 'Raleway', sans-serif;
  
 
 }
@@ -96,10 +98,10 @@ button
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
     background-color: #fff;
     color: black;
-    margin: 20px 0px 20px 0px;
+    margin-right: 25px;
+    margin-top: 25px;
 }
 
 .filtre a 
@@ -113,24 +115,72 @@ button
 .filtre i 
 {
     color: #0065FC;
-    border-color:  #0065FC;
-    border-radius: 10px;
-    padding: 6px;
-    margin: 6px; ;
-    background-color:#DEEBFF;
+    border-radius: 50%;
+    background-color:#DEEBFF ;
+    border: 1px solid #DEEBFF;
+    padding: 10px;
+    margin: 0px;
     
 }
 
-.Economie a 
+.les_filtres
 {
-    color: #000000;
-    border-radius: 20px;
-    padding: 10px;
-    border-color: #DEEBFF;
+    margin-right: 20px;
+    border-radius: 25px;
+    border: 1px solid #C7C5C5 ;
 }
 
+.les_filtres, a 
+{
+    margin-right: 20px;
+    padding: 0px;
+}
 
+#info
+{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 5px;
+}
 
+#info i
+{
+    color: #0065FC;
+    background-color: #fff;
+    border-radius:50%;
+    border: 1px solid #C7C5C5;
+    padding: 10px;
+
+}
+
+/* Fin du corps de page*/
+
+/* Début du footer*/
+
+footer
+{
+    margin-top: 40px;
+    background-color: #DEEBFF;
+    color: #000000;
+    padding: 30px 10px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+footer .pieds_pages
+{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+footer .pieds_pages .pieds_page
+{
+    margin-right: 50px;
+    padding: 10px;
+    font-size: 12px;
+}
 
 
 
