@@ -47,14 +47,12 @@ header nav a:hover
     
 }
 
-/* Fin du Header */
-
 /* debut section filtres */
 
 header .filtres_principale 
 {
 background-color: #fff;
-margin-top: 5px;
+
 }
 
 .Titres h1
@@ -123,6 +121,7 @@ button
     
 }
 
+
 .les_filtres
 {
     margin-right: 20px;
@@ -153,6 +152,92 @@ button
     padding: 10px;
 
 }
+/* Fin du header*/
+
+/* Début du corps de la page */
+
+.main
+{
+   background-color: #fff;
+border: 1px solid black;
+margin: 10px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.groupe_hebergements
+{
+    background-color: #DEEBFF;
+
+}
+
+.titre_hebergement
+{
+    font-size: 1.0em;
+    font-family: 'Raleway' sans-serif;
+    color: black;
+
+}
+
+.photo_container
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  
+}
+
+.premier_groupe
+{
+display: flex;
+flex-wrap: wrap;
+width: 80px;
+height: 80px;
+
+}
+
+.deuxieme_groupe
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80px;
+    height: 80px;
+    
+}
+
+
+
+aside
+{
+    background-color: #DEEBFF;
+}
+
+.titre_aside
+{
+
+}
+
+.hebergement_populaires
+{
+
+}
+
+.les_populaires
+{
+ width: 80px;
+ height: 80px;
+ display: flex;
+ flex-direction: column;
+}
+
+
+
+
+
+
+
+
 
 /* Fin du corps de page*/
 
