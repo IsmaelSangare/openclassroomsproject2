@@ -161,12 +161,18 @@ button
     margin: 10px;
     margin-top: 20;
     display:flex;
-    justify-content: left;
+    justify-content: space-between;
     align-items: flex-start;
+    flex-direction: row;
 }
 
 .section_hebergement
 {
+    background-color: #DEEBFF;
+    width: 800px;
+    height: 650px;
+
+
     
 
 }
@@ -184,15 +190,15 @@ button
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #DEEBFF;
+    
 }
 
 .premiere_ligne
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    
+    padding-top: 20px;
+    margin-top: 10px;
 }
 
 .card 
@@ -203,7 +209,7 @@ button
 img
 {
     width: 200px;
-    height: 150px;
+    height: 100px;
 }
 .card_header
 {
@@ -239,7 +245,74 @@ img
     display: flex;
     flex-wrap: wrap;
     padding-top: 20px;
+    margin-top: 10px;
+    
 }
+
+.card_footer
+{
+    color: #000000;
+    font-family: 'Raleway' sans-serif;
+    justify-content: flex-start;
+    font-size: 0.90em;
+    
+}
+
+aside
+{
+    background-color: #DEEBFF;
+    width: 700px;
+    height: 650px;
+}
+
+.header_de_aside
+{
+    display: flex;
+    flex-direction: row;
+    color: #000000;
+    font-family: 'Raleway' sans-serif;
+    font-size: 1em;
+}
+
+.la_courbe
+{
+    margin-top: 22px;
+    margin-left: 90px;
+}
+
+.le_titre_photo
+{
+    font-size: 0.90em;
+}
+
+.card_container
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    
+}
+
+.la_photo
+{
+    width: 120px;
+    height: 150px;
+
+}
+
+.small_container
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
 
 
 
