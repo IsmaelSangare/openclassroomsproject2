@@ -3,7 +3,7 @@ body
 {
     font-family: 'Raleway', sans-serif;
     padding: 0px;
-    margin: 0px;
+    
 }
 
 /* Barre de navigation */
@@ -14,8 +14,7 @@ header
  color: black;
  padding: 0px 10px;
  font-family: 'Raleway', sans-serif;
- 
-
+ margin: 20px;
 }
 
 header nav
@@ -159,23 +158,25 @@ button
 }
 /* Fin du header*/
 
-/* Début du corps de la page */
+/* Section hébergement*/
 
 .main
 {
-    margin: 10px;
-    margin-top: 20;
+    
     display:flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: row;
+    margin: 20px;
 }
 
 .section_hebergement
 {
-    background-color: #DEEBFF;
-    width: 800px;
-    height: 650px;
+    background-color: #EBEBEB;
+    width: 1000px;
+    height: 750px;
+    margin-bottom: 50px;
+    border-radius: 5%;
 }
 
 .titre_hebergement
@@ -184,6 +185,7 @@ button
     font-family: 'Raleway' sans-serif;
     font-size: 1em;
     justify-content: flex-start;
+    margin-left: 50px;
 }
 .carte
 {
@@ -191,6 +193,8 @@ button
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
+    margin: 20px 0px;
+    align-items: center;
 }
 
 .premiere_ligne
@@ -203,19 +207,36 @@ button
 
 .card 
 {
-    margin-right: 10px;
+    margin-right: 20px;
+    border: 5px solid #fff ;
+    border-radius: 10%;
+    background-color: #fff;
+    
 }
 
 img
 {
-    width: 200px;
-    height: 100px;
+    width: 280px;
+    height: 160px;
+    border-radius: 10%;
+}
+
+.photo
+{
+    border-bottom-left-radius:0%;
+    border-bottom-right-radius: 0%;
 }
 .card_header
 {
     color: #000000;
     font-family: 'Raleway' sans-serif;
     justify-content: flex-start;
+    margin-left: 5px;
+}
+
+.card_body
+{
+    margin-left: 5px;
 }
 
 .titre_photo
@@ -255,14 +276,18 @@ img
     font-family: 'Raleway' sans-serif;
     justify-content: flex-start;
     font-size: 0.90em;
+    margin-left: 50px;
     
 }
 
 aside
 {
-    background-color: #DEEBFF;
-    width: 700px;
-    height: 650px;
+    background-color:#EBEBEB;
+    width: 500px;
+    height: 750px;
+    border-radius: 5%;
+    margin-right: 5px;
+    
 }
 
 .header_de_aside
@@ -272,6 +297,7 @@ aside
     color: #000000;
     font-family: 'Raleway' sans-serif;
     font-size: 1em;
+    margin-left: 25px;
 }
 
 .la_courbe
@@ -289,14 +315,25 @@ aside
 {
     display: flex;
     flex-direction: row;
-    margin-bottom: 20px;
+    margin: 20px;
+    border: 3px solid #fff; 
+    border-radius: 5%;
+    background-color: #fff;
     
+}
+
+.carte_populaire
+{
+    margin-top: 27px;
 }
 
 .la_photo
 {
-    width: 120px;
-    height: 150px;
+    width: 160px;
+    height: 182px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+    
 
 }
 
@@ -305,13 +342,20 @@ aside
     display: flex;
     flex-direction: column;
     margin-left: 20px;
+    
 }
+
+
+/*Fin de la section hébergements*/
+
+/*début de la section acrivité*/
 
 .activites
 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    margin: 20px;
 }
 
 .titre_activites
@@ -326,6 +370,7 @@ aside
 {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     
 }
 
@@ -334,31 +379,88 @@ aside
     display: flex;
     flex-direction: row;
     
+}
 
+.grande_image
+{
+    margin-right: 15px;
+
+}
+
+.grande_photo
+{
+    height: 370px;
+    width: 300px;
+    border-bottom-left-radius:0%;
+    border-bottom-right-radius: 0%;
+}
+
+.photo_header
+{
+    color: #000000;
+    font-family: 'Raleway' sans-serif;
+    justify-content: flex-start;
+    font-size: 0.70em;
+}
+
+.petite_image
+{
+
+}
+
+.haut
+{
+
+}
+
+.small_picture
+{
+    height: 100;
+    width: 100;
+    border-bottom-left-radius:0%;
+    border-bottom-right-radius: 0%;
+}
+
+.small_picture_deux
+{
+    border-bottom-left-radius:0%;
+    border-bottom-right-radius: 0%;
+    height: 50;
+    width: 100;
+
+}
+
+.small_picture_trois
+{
+    border-bottom-left-radius:0%;
+    border-bottom-right-radius: 0%;
+
+}
+
+.small_picture_quatre
+{
+    border-bottom-left-radius:0%;
+    border-bottom-right-radius: 0%;
+    height: 150;
+    width: 100;
 }
 
 
 
 
 
-
-
-
-
-
-
-  
-/* Fin du corps de page*/
+/* Fin de la section activités*/
 
 /* Début du footer*/
 
 footer
 {
-    margin-top: 40px;
-    background-color: #DEEBFF;
+    background-color: #EBEBEB;
     color: #000000;
     padding: 30px 10px;
     font-family: 'Raleway', sans-serif;
+    
+    margin-top: 50px;
 
 }
 
