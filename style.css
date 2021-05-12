@@ -152,6 +152,11 @@ button
     padding: 10px;
 
 }
+
+.le_titre, a 
+{
+    margin-top: 10px;
+}
 /* Fin du header*/
 
 /* Début du corps de la page */
@@ -171,10 +176,6 @@ button
     background-color: #DEEBFF;
     width: 800px;
     height: 650px;
-
-
-    
-
 }
 
 .titre_hebergement
@@ -190,7 +191,6 @@ button
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
-    
 }
 
 .premiere_ligne
@@ -307,6 +307,35 @@ aside
     margin-left: 20px;
 }
 
+.activites
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.titre_activites
+{
+    color: #000000;
+    font-family: 'Raleway' sans-serif;
+    justify-content: flex-start;
+    font-size: 0.90em;
+}
+
+.activites_card
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.first_group
+{
+    display: flex;
+    flex-direction: row;
+    
+
+}
 
 
 
