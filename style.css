@@ -22,7 +22,7 @@ header nav
  display: flex;
  flex-wrap: wrap;
  justify-content: space-between;
- padding: 20px;
+ padding: 40px;
 
 }
 
@@ -167,7 +167,7 @@ button
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: row;
-    margin: 20px;
+    margin: 40px;
 }
 
 .section_hebergement
@@ -177,6 +177,7 @@ button
     height: 750px;
     margin-bottom: 50px;
     border-radius: 5%;
+    margin-right: 20px;
 }
 
 .titre_hebergement
@@ -214,15 +215,12 @@ button
     
 }
 
-img
-{
-    width: 280px;
-    height: 160px;
-    border-radius: 10%;
-}
-
 .photo
 {
+    width: 270px;
+    height: 150px;
+    border-radius: 10%;
+
     border-bottom-left-radius:0%;
     border-bottom-right-radius: 0%;
 }
@@ -280,13 +278,19 @@ img
     
 }
 
+/* fin hebergement*/
+
+
+/*debut aside*/
+
+
 aside
 {
     background-color:#EBEBEB;
     width: 500px;
     height: 750px;
     border-radius: 5%;
-    margin-right: 5px;
+    margin-left: 10px;
     
 }
 
@@ -346,7 +350,7 @@ aside
 }
 
 
-/*Fin de la section hébergements*/
+/*Fin aside*/
 
 /*début de la section acrivité*/
 
@@ -355,7 +359,10 @@ aside
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin: 20px;
+    margin: 40px;
+    justify-content: space-between;
+    background-color: #fff;
+
 }
 
 .titre_activites
@@ -379,21 +386,109 @@ aside
     display: flex;
     flex-direction: row;
     
+    
+}
+
+.second_group
+{
+    display: flex;
+    flex-direction: row;
+    
 }
 
 .grande_image
 {
     margin-right: 15px;
+    border: 1px solid #DEEBFF;
+    border-bottom-left-radius:0%;
+    border-bottom-right-radius: 0%;
 
 }
 
 .grande_photo
 {
-    height: 370px;
-    width: 300px;
+    height: 450px;
+    width: 350px;
+    border-radius: 10px;
     border-bottom-left-radius:0%;
     border-bottom-right-radius: 0%;
 }
+
+
+
+.petite_images
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+#pomegues_container
+{
+    
+    box-shadow: 10px #DEEBFF; 
+    border-radius: 5%;
+    background-color: #fff;
+    margin-bottom: 5px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+
+}
+
+#pomegues_card
+{
+
+}
+
+.la_pomegues
+{
+    width: 350px;
+    height: 185px;
+    box-shadow: 20px black;
+    border-radius: 10px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+
+#frioul_container
+{
+    border: 1px solid #DEEBFF; 
+    border-radius: 5%;
+    background-color: #fff;
+    margin-top: 10px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+#photo_du_frioul
+{
+    
+    border-radius: 10px;
+
+    height: 130px;
+    width: 350px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+.grande_image_gauche
+{
+    border: 1px solid #DEEBFF;
+    border-bottom-left-radius:0%;
+    border-bottom-right-radius: 0%;
+    border-radius: 10px;
+}
+
+.grande_image_droit
+{
+    border: 1px solid #DEEBFF;
+    border-bottom-left-radius:0%;
+    border-bottom-right-radius: 0%;
+    border-radius: 10%;
+}
+
+
 
 .photo_header
 {
@@ -403,49 +498,43 @@ aside
     font-size: 0.70em;
 }
 
-.petite_image
+.notre_dame
 {
+    height: 185px;
+    width: 350px;
+    border-radius: 10px;
+    border-bottom-left-radius:0%;
+    border-bottom-right-radius: 0%;
+
+}
+
+.longchamp
+{
+    width: 350px;
+    height: 185px;
+    border-radius: 10%;
+    border-bottom-left-radius:0%;
+    border-bottom-right-radius: 0%;
 
 }
 
 .haut
 {
-
-}
-
-.small_picture
-{
-    height: 100;
-    width: 100;
-    border-bottom-left-radius:0%;
+    border: 1px solid #DEEBFF;
+    border-radius: 10px;
+    border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
+    margin-bottom: 5px;
 }
 
-.small_picture_deux
+.bas
 {
-    border-bottom-left-radius:0%;
+    border: 1px solid #DEEBFF;
+    border-radius: 10px;
+    border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
-    height: 50;
-    width: 100;
-
+    margin-top: 5px;
 }
-
-.small_picture_trois
-{
-    border-bottom-left-radius:0%;
-    border-bottom-right-radius: 0%;
-
-}
-
-.small_picture_quatre
-{
-    border-bottom-left-radius:0%;
-    border-bottom-right-radius: 0%;
-    height: 150;
-    width: 100;
-}
-
-
 
 
 
