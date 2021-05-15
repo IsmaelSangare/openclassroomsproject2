@@ -113,8 +113,8 @@ button
 {
     color: #0065FC;
     border-radius: 50%;
-    background-color:#DEEBFF ;
-    border: 1px solid #DEEBFF;
+    background-color:#C7C5C5 ;
+    border: 1px solid #C7C5C5;
     padding: 10px;
     margin: 0px;
     
@@ -125,7 +125,7 @@ button
 {
     margin-right: 20px;
     border-radius: 25px;
-    border: 1px solid #C7C5C5 ;
+    border: 1px solid #F2F2F2 ;
 }
 
 .les_filtres, a 
@@ -146,8 +146,8 @@ button
 {
     color: #0065FC;
     background-color: #fff;
-    border-radius:50%;
-    border: 1px solid #C7C5C5;
+    border-radius:100%;
+    border: 1px solid #F2F2F2;
     padding: 10px;
 
 }
@@ -172,7 +172,9 @@ button
 
 .section_hebergement
 {
-    background-color: #EBEBEB;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
     width: 1000px;
     height: 750px;
     margin-bottom: 50px;
@@ -286,7 +288,7 @@ button
 
 aside
 {
-    background-color:#EBEBEB;
+    background-color:#F2F2F2;
     width: 500px;
     height: 750px;
     border-radius: 5%;
@@ -384,7 +386,9 @@ aside
 .first_group
 {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-between;
     
     
 }
@@ -392,7 +396,9 @@ aside
 .second_group
 {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-between;
     
 }
 
@@ -407,8 +413,8 @@ aside
 
 .grande_photo
 {
-    height: 450px;
-    width: 350px;
+    height: 455px;
+    width: 345px;
     border-radius: 10px;
     border-bottom-left-radius:0%;
     border-bottom-right-radius: 0%;
@@ -421,6 +427,7 @@ aside
     display: flex;
     flex-direction: column;
     margin-left: 10px;
+    justify-content: space-between;
 }
 
 #pomegues_container
@@ -430,20 +437,14 @@ aside
     border-radius: 5%;
     background-color: #fff;
     margin-bottom: 5px;
-    border-bottom-left-radius: 0%;
-    border-bottom-right-radius: 0%;
-
-}
-
-#pomegues_card
-{
+    box-shadow: 0px 5px #EBEBEB;
 
 }
 
 .la_pomegues
 {
-    width: 350px;
-    height: 185px;
+    width: 345px;
+    height: 225px;
     box-shadow: 20px black;
     border-radius: 10px;
     border-bottom-left-radius: 0%;
@@ -453,39 +454,38 @@ aside
 
 #frioul_container
 {
-    border: 1px solid #DEEBFF; 
+    
     border-radius: 5%;
     background-color: #fff;
-    margin-top: 10px;
-    border-bottom-left-radius: 0%;
-    border-bottom-right-radius: 0%;
+    box-shadow: 0px 5px #EBEBEB;
+    
+    
 }
 
 #photo_du_frioul
 {
     
     border-radius: 10px;
-
-    height: 130px;
+    height: 112,5px;
     width: 350px;
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
+    
 }
 
 .grande_image_gauche
 {
-    border: 1px solid #DEEBFF;
-    border-bottom-left-radius:0%;
-    border-bottom-right-radius: 0%;
+
     border-radius: 10px;
+    box-shadow: 0px 5px #EBEBEB;
+
 }
 
 .grande_image_droit
 {
-    border: 1px solid #DEEBFF;
-    border-bottom-left-radius:0%;
-    border-bottom-right-radius: 0%;
+
     border-radius: 10%;
+    box-shadow: 0px 5px #EBEBEB;
 }
 
 
@@ -496,12 +496,13 @@ aside
     font-family: 'Raleway' sans-serif;
     justify-content: flex-start;
     font-size: 0.70em;
+    margin-left: 10px;
 }
 
 .notre_dame
 {
-    height: 185px;
-    width: 350px;
+    height: 180px;
+    width: 345px;
     border-radius: 10px;
     border-bottom-left-radius:0%;
     border-bottom-right-radius: 0%;
@@ -510,8 +511,8 @@ aside
 
 .longchamp
 {
-    width: 350px;
-    height: 185px;
+    height: 180px;
+    width: 345px;
     border-radius: 10%;
     border-bottom-left-radius:0%;
     border-bottom-right-radius: 0%;
@@ -520,20 +521,19 @@ aside
 
 .haut
 {
-    border: 1px solid #DEEBFF;
+    
     border-radius: 10px;
-    border-bottom-left-radius: 0%;
-    border-bottom-right-radius: 0%;
-    margin-bottom: 5px;
+    box-shadow: 0px 5px #EBEBEB;
+    
 }
 
 .bas
 {
-    border: 1px solid #DEEBFF;
+    
     border-radius: 10px;
-    border-bottom-left-radius: 0%;
-    border-bottom-right-radius: 0%;
-    margin-top: 5px;
+    box-shadow: 0px 5px #EBEBEB;
+    
+    
 }
 
 
@@ -544,12 +544,12 @@ aside
 
 footer
 {
-    background-color: #EBEBEB;
+    background-color: #F2F2F2;
     color: #000000;
     padding: 30px 10px;
     font-family: 'Raleway', sans-serif;
     
-    margin-top: 50px;
+    margin-top: 100px;
 
 }
 
@@ -566,6 +566,14 @@ footer .pieds_pages .pieds_page
     padding: 10px;
     font-size: 12px;
 }
+
+
+@media screen and (max-width:1280px)
+{
+    
+
+    
+        
 
 
 
