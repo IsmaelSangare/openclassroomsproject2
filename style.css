@@ -8,7 +8,7 @@ body
 
 #bloc_page
 {
-    display: block;
+    display:block;
     flex-direction: column;
     align-items: center;
     
@@ -181,42 +181,49 @@ button
     margin: 40px;
 }
 
-.section_hebergement
-{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #F2F2F2;
-    width: 1000px;
-    height: 750px;
-    margin-bottom: 50px;
-    border-radius: 5%;
-    margin-right: 20px;
-}
 
-.titre_hebergement
-{
-    color: #000000;
-    font-family: 'Raleway' sans-serif;
-    font-size: 1em;
-    justify-content: flex-start;
-    margin-left: 50px;
-}
 .carte
 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    background-color: #C7C5C5;
     justify-content: space-between;
-    margin: 20px 0px;
-    align-items: center;
+    height: 775px;
+    border-radius: 5%;
+    
+    
+    
 }
+
+.titre_carte
+{
+    color: #000000;
+    font-family: 'Raleway' sans-serif;
+    font-size: 1em;
+    margin-left: 20px;
+    padding-top: 5px;
+    
+    
+}
+
 
 .premiere_ligne
 {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 20px;
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+
+.deuxieme_ligne
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 90px;
+    margin-left: 20px;
+    
 }
 
 .card 
@@ -272,22 +279,15 @@ button
     color: #C7C5C5;
 }
 
-.deuxieme_ligne
-{
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 20px;
-    margin-top: 10px;
-    
-}
 
-.card_footer
+
+.carte_footer
 {
     color: #000000;
     font-family: 'Raleway' sans-serif;
-    justify-content: flex-start;
     font-size: 0.90em;
-    margin-left: 50px;
+    margin-left: 25px;
+    
     
 }
 
@@ -299,11 +299,9 @@ button
 
 aside
 {
-    background-color:#F2F2F2;
-    width: 500px;
-    height: 750px;
+    background-color:#C7C5C5;
     border-radius: 5%;
-    margin-left: 10px;
+    width: 500px; height: 775px;
     
 }
 
@@ -348,6 +346,7 @@ aside
 {
     width: 160px;
     height: 182px;
+    border-radius: 10px;
     border-top-right-radius: 0%;
     border-bottom-right-radius: 0%;
     
@@ -369,7 +368,7 @@ aside
 
 .activites
 {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     flex-direction: column;
     margin: 40px;
@@ -556,7 +555,7 @@ aside
 
 footer
 {
-    background-color: #F2F2F2;
+    background-color: #C7C5C5;
     color: #000000;
     padding: 30px 10px;
     font-family: 'Raleway', sans-serif;
@@ -584,17 +583,77 @@ footer .pieds_pages .pieds_page
 {
     #bloc_page
     {
-        width: auto;
+        width: 100%
+        display: block;
+        flex-direction: column;
+        
+    }
+
+    header 
+    {
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    header nav
+    {
+        font-size: 1.6em;
+        
+    }
+
+    header nav a 
+    {
+        display: inline-block;
+        
+        
     }
 
     .main
     {
-        width: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+
+    .carte
+    {
+        display: flex;
+        flex-direction: row;
+        background-color: #fff;
+        width: 100%;
+        
+    }
+
+    .aside 
+    {
+        flex: 0 1 300px;
+        
+        
+    
+    }
+
+    .activites
+    {
         display: block;
         flex-direction: column;
-        align-items: center;
-        margin-bottom: 100px;
+        margin-top: 100px;
     }
+
+    .first_group
+    {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .second_group
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    
 }
 
 
