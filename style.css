@@ -123,11 +123,10 @@ button
 .filtre i 
 {
     color: #0065FC;
-    border-radius: 50%;
-    background-color:#C7C5C5 ;
-    border: 1px solid #C7C5C5;
+    border-radius: 100%;
+    background-color:#E7E7E7 ;
+    border: 1px solid #E7E7E7;
     padding: 10px;
-    margin: 0px;
     
 }
 
@@ -187,7 +186,7 @@ button
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    background-color: #C7C5C5;
+    background-color: #E7E7E7;
     justify-content: space-between;
     height: 775px;
     border-radius: 5%;
@@ -299,7 +298,7 @@ button
 
 aside
 {
-    background-color:#C7C5C5;
+    background-color:#E7E7E7;
     border-radius: 5%;
     width: 500px; height: 775px;
     
@@ -555,7 +554,7 @@ aside
 
 footer
 {
-    background-color: #C7C5C5;
+    background-color: #E7E7E7;
     color: #000000;
     padding: 30px 10px;
     font-family: 'Raleway', sans-serif;
@@ -578,92 +577,4 @@ footer .pieds_pages .pieds_page
     padding: 10px;
     font-size: 12px;
 }
-
-@media screen and (max-width:1024px)
-{
-    #bloc_page
-    {
-        width: 100%
-        display: block;
-        flex-direction: column;
-        
-    }
-
-    header 
-    {
-        width: 100%;
-        margin-left: 50px;
-    }
-
-    header nav
-    {
-        font-size: 1.6em;
-        
-    }
-
-    header nav a 
-    {
-        display: inline-block;
-        
-        
-    }
-
-    .main
-    {
-        display: flex;
-        flex-direction: column-reverse;
-        
-    }
-
-    .carte
-    {
-        display: flex;
-        flex-direction: row;
-        background-color: #fff;
-        width: 100%;
-        
-    }
-
-    .aside 
-    {
-        flex: 0 1 300px;
-        
-        
-    
-    }
-
-    .activites
-    {
-        display: block;
-        flex-direction: column;
-        margin-top: 100px;
-    }
-
-    .first_group
-    {
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    .second_group
-    {
-        display: flex;
-        flex-direction: column;
-    }
-    
-
-    
-}
-
-
-
-    
-
-    
-        
-
-
-
-
 
