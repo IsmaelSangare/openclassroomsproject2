@@ -719,11 +719,9 @@ footer{
 
     
 
-    .inscription:nth-child(3) {
+    /*.inscription:nth-child(3) {
         background-color:
-        
-        
-    }
+    }*/
 
     #pieds-de-page{
         display: flex;
