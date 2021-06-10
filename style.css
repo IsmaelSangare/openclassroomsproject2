@@ -39,7 +39,7 @@ nav a:hover{
  border-top: 1px solid #0065FC; padding-top: 30px;
 }
 
-#filtres_principale{
+#filtres_containers{
     display: flex;
     flex-direction: column;
 }
@@ -174,14 +174,14 @@ body{
 #hebergement-header{
     font-size: 1.2em;
     justify-content: flex-start;
-    margin-left: 20px;
+    margin-left: 40px;
 
 }
 
 #hebergement-footer{
     font-size: 0.90em;
     justify-content: flex-start;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .hebergement{
@@ -547,6 +547,7 @@ footer{
         flex-direction: column;
         align-items: center;
         max-width: 100%;
+        margin-top: 20px;
     }
 
     #activites-card{
@@ -655,7 +656,7 @@ footer{
     }
 
     #titre-activites{
-        margin-right: 130px;
+        margin-right: 150px;
         font-size: 1em;
     }
 
