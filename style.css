@@ -642,6 +642,7 @@ footer{
     
     .price{
         font-size: 00.75em;
+        font-weight: normal;
     }
     
     .etoile_bleu{
