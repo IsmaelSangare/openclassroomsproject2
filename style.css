@@ -83,6 +83,13 @@ input{
     margin-top: 25px;
 }
 
+#filtre_box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 #filtre a {
  text-decoration: none;
  color: #000000;
@@ -103,7 +110,8 @@ input{
 {
     margin-right: 20px;
     border-radius: 25px;
-    border: 1px solid #F2F2F2 ;
+    border: 1px solid #0065FC ;
+    
 }
 
 .les_filtres, a 
@@ -165,17 +173,19 @@ body{
 
 #hebergement-header{
     font-size: 1.2em;
-    margin-left: 80px;
+    justify-content: flex-start;
+    margin-left: 20px;
 
 }
 
 #hebergement-footer{
     font-size: 0.90em;
-    margin-left:  80px; 
+    justify-content: flex-start;
+    margin-left: 20px;
 }
 
 .hebergement{
-    width: 280px;
+    width: 250px;
     height: 120px;
     image-rendering: crisp-edges;
     border-radius: 15px 15px 0 0 ;
@@ -199,7 +209,7 @@ body{
 
 .etoile_bleu{
     font-size: 0.90em;
-    color: blue;
+    color:#0065FC;
 }
 
 
@@ -307,7 +317,7 @@ body{
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly
     
     
 }
@@ -315,12 +325,12 @@ body{
 #groupe-de-droite{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    
 }
 
 .deux-grandes-photos{
-    height: 455px;
-    width: 345px;
+    height: 445px;
+    width: 305px;
     border-radius: 10px;
     border-bottom-left-radius:0%;
     border-bottom-right-radius: 0%;
@@ -330,23 +340,22 @@ body{
 {
     display: flex;
     flex-direction: column;
-    margin-left: 55px;
     justify-content: space-between;
+    margin-left: 27px;
 }
 
 #petite_images_right
 {
     display: flex;
     flex-direction: column;
-    
     justify-content: space-between;
 }
 
 
 
 #photo-la-pomegues{
-    width: 345px;
-    height: 225px;
+    width: 305px;
+    height: 215px;
     box-shadow: 20px black;
     border-radius: 10px;
     border-bottom-left-radius: 0%;
@@ -358,16 +367,16 @@ body{
 #photo-du-frioul{
     
     border-radius: 10px;
-    height: 112,5px;
-    width: 350px;
+    height: 102,5px;
+    width: 305px;
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
     
 }
 
 #photo-notre-dame{
-    height: 180px;
-    width: 345px;
+    height: 175px;
+    width: 305px;
     border-radius: 10px;
     border-bottom-left-radius:0%;
     border-bottom-right-radius: 0%;
@@ -375,8 +384,8 @@ body{
 }
 
 #photo-longchamp{
-    height: 180px;
-    width: 345px;
+    height: 175px;
+    width: 305px;
     border-radius: 10%;
     border-bottom-left-radius:0%;
     border-bottom-right-radius: 0%;
@@ -400,7 +409,8 @@ body{
 #grande_image_droit{
     border-radius: 10px;
     box-shadow: 0px 5px #EBEBEB;
-    margin-right: 50px;
+    margin-right: 27px;
+    
 
 }
 
@@ -445,21 +455,23 @@ footer{
 
 #pieds-de-page{
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-direction: row;
+    justify-content: space-around;
+}
 
+
+.titre_footer{
+    font-size: 1em;
 }
 
 .pieds_page{
-    margin-right: 250px;
-    padding: 10px;
-    font-size: 13px;
+    margin-right: 240px;
 }
 
-.pieds_page p{
-    font-size: 15px;
-
+.pieds_page h1 p {
+    font-size: 0,85px;
 }
+
 
 /* Mise en place des medias querries */
 
@@ -668,9 +680,68 @@ footer{
 
 
     #longchamp-container{
-        margin: 15px;
+        margin-top:  15px;
     }
 
+    #grande_image_droit{
+        margin-top: 15px;
+    }
+
+    #filtre{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #filtre_box{
+        margin-top: 10px;
+        flex-direction:row;
+        justify-content: space-between;
+    }
+
+    .les_filtres, a{
+        font-size: 0.80em;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .onglets{
+        display: flex;
+        flex-direction: row;
+    }
+
+    
+
+    .inscription:nth-child(3) {
+        background-color:
+        
+        
+    }
+
+    #pieds-de-page{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    footer{
+        
+        margin-top: 0px;
+    }
+
+    .pieds_page{
+        margin-right: 0px;
+        font-size: 0.80em;
+    }
+
+
+
+    
 
 }
 
