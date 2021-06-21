@@ -11,45 +11,74 @@ body
 
 header{
     display: flex;
-    flex-direction:row;
-    background-color: #fff;
+    flex-direction: row;
     justify-content: space-between;
     margin: 20px;
- }
-
-#logo{
-    width: 80px; height: 50px;
+    
 }
 
-nav{
- display: flex;
- flex-direction: row;
- justify-content: space-between;
- margin-top: 30px;
+.onglet-box{
+    display: flex;
+    flex-direction: row;
 }
 
-nav a {
- color:#0065FC ;
- text-decoration: none;
- margin-right: 10px;
+#inscription{
+    font-size: 1em;
+    color: #0065FC;
+    
+}
+
+.activity{
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+.logement{
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    font-weight: 600;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+.little-nav{
+    display: flex;
+    flex-direction: row;
 }
 
 nav a:hover{
- color: black;   
- border-top: 1px solid #0065FC; padding-top: 30px;
+      
+    border-top: 1px solid #0065FC; padding-top: 20px;
 }
+
+
+
 
 #filtres_containers{
     display: flex;
     flex-direction: column;
 }
 
-.titres h1{
+.titres h2{
     font-size: 1.4em;
     font-weight: bold;
 }
 
-.titres h2{
+.titres h3{
     color:gray;
     font-size: 1.0em;
 }
@@ -210,6 +239,7 @@ body{
 .etoile_bleu{
     font-size: 0.90em;
     color:#0065FC;
+    margin-right: -3px;
 }
 
 
@@ -231,6 +261,14 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
     
+}
+
+.card_header{
+    margin-left:10px;
+}
+
+.card_body{
+    margin-left: 10px;
 }
 
 
@@ -356,7 +394,6 @@ body{
 #photo-la-pomegues{
     width: 305px;
     height: 215px;
-    box-shadow: 20px black;
     border-radius: 10px;
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
@@ -367,7 +404,7 @@ body{
 #photo-du-frioul{
     
     border-radius: 10px;
-    height: 102,5px;
+    height: 103px;
     width: 305px;
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
@@ -469,14 +506,14 @@ footer{
 }
 
 .pieds_page h1 p {
-    font-size: 0,85px;
+    font-size: 0.85em;
 }
 
 
 /* Mise en place des medias querries */
 
 
-@media (max-width: 1024px){
+@media (max-width: 700px){
 
     body{
         max-width: 100%;
@@ -523,7 +560,7 @@ footer{
           flex-direction: column ;
           width: 100%;
           margin-left:0;
-          padding: 0 px;
+          padding: 0px;
           border-radius: 10px;
           background-color: #f2f2f2;
       }
@@ -706,22 +743,6 @@ footer{
         font-weight: bold;
     }
 
-    header{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-
-    .onglets{
-        display: flex;
-        flex-direction: row;
-    }
-
-    
-
-    /*.inscription:nth-child(3) {
-        background-color:
-    }*/
 
     #pieds-de-page{
         display: flex;
@@ -739,6 +760,31 @@ footer{
         font-size: 0.80em;
     }
 
+    header{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .onglet-box{
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        
+    }
+
+    nav{
+        flex-direction: row-reverse;
+        margin-right: 20px;
+        
+    }
+
+    #inscription{
+        margin-right: 50px;
+    }
+
+
+    
 
 
     
