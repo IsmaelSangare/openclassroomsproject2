@@ -22,7 +22,7 @@ header{
     font-size: 1em;
     color: #0065FC;
     margin-top: 20px;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 600;
     
 }
@@ -37,6 +37,7 @@ header{
 .logement{
     list-style: none;
     text-decoration: none;
+    color: #0065FC;
     
 }
 
@@ -50,7 +51,7 @@ nav {
     display: flex;
     flex-direction: row;
     font-weight: 600;
-    font-size: 1.1em;
+    font-size: 1em;
     margin-top: 20px;
     margin-left: 855px;
 }
@@ -127,8 +128,8 @@ input{
 #filtre i {
     color: #0065FC;
     font-size: 15px;
-    border-radius: 50%;
-    background-color:#F2F2F2 ;
+    border-radius: 100px;
+    background-color:#DEEBFF ;
     border: 1px solid #F2F2F2;
     padding: 10px;
     
@@ -138,7 +139,7 @@ input{
 {
     margin-right: 20px;
     border-radius: 25px;
-    border: 1px solid #0065FC ;
+    border: 2px solid #DEEBFF ;
     
 }
 
@@ -273,7 +274,7 @@ body{
 
 
 #sidebar{
-  /*  flex: 1; */
+  
     display: flex;
     flex-direction: column ;
     justify-content: space-evenly;
@@ -562,7 +563,7 @@ footer{
           padding: 0px;
           border-radius: 10px;
           background-color: #f2f2f2;
-      }
+    }
 
     #premiere-ligne{
         display: flex;
@@ -725,9 +726,6 @@ footer{
         margin-top: 15px;
     }
 
-    #Filtres_containers{
-        margin-top: 50px;
-    }
 
     #filtre{
         display: flex;
@@ -772,25 +770,19 @@ footer{
     }
 
     header{
-        display: flex;
+        display: block;
         flex-direction: row;
-    
-
     }
 
     nav {
         display: flex;
         flex-direction: row;
-        position: absolute;
+        justify-content: space-between;
         font-size: 1.2em;
         font-weight: 600;
-        margin-top:  70px;
-        margin-left: 50px;
-        width: 2000%;
+        margin-top:  30px;
+        margin-left: 0px;
         border-bottom: 2px solid #F2F2F2; padding-bottom: 10px;
-        
-        
-     
     }
 
     #inscription{
@@ -798,17 +790,17 @@ footer{
         top: 20px;
         right: 20px;
         font-size: 1.2em;
-        
     }
 
     .activity{
         color: #0065FC;
-        margin-left: 30px;
         
     }
 
     .logement{
-        position: relative;
+        
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC ; padding-bottom: 10px;
         
     }
 
@@ -817,9 +809,6 @@ footer{
         height: 50px;
     }
 
-    .logo-box{
-        
-    }
 
 
 }
