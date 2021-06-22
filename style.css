@@ -17,14 +17,13 @@ header{
     
 }
 
-.onglet-box{
-    display: flex;
-    flex-direction: row;
-}
 
 #inscription{
     font-size: 1em;
     color: #0065FC;
+    margin-top: 20px;
+    font-size: 1.1em;
+    font-weight: 600;
     
 }
 
@@ -49,19 +48,19 @@ header{
 
 nav {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     font-weight: 600;
     font-size: 1.1em;
     margin-top: 20px;
-}
-
-.little-nav{
-    display: flex;
-    flex-direction: row;
+    margin-left: 855px;
 }
 
 nav a:hover{
       
+    border-top: 1px solid #0065FC; padding-top: 20px;
+}
+
+.inscriptions a:hover{
     border-top: 1px solid #0065FC; padding-top: 20px;
 }
 
@@ -726,10 +725,16 @@ footer{
         margin-top: 15px;
     }
 
+    #Filtres_containers{
+        margin-top: 50px;
+    }
+
     #filtre{
         display: flex;
         flex-direction: column;
+        
     }
+
 
     #filtre_box{
         margin-top: 10px;
@@ -741,6 +746,12 @@ footer{
         font-size: 0.80em;
         margin-top: 10px;
         font-weight: bold;
+    }
+
+    header{
+        display: flex;
+        flex-direction: row;
+        
     }
 
 
@@ -763,31 +774,53 @@ footer{
     header{
         display: flex;
         flex-direction: row;
-        
+    
+
     }
 
-    .onglet-box{
+    nav {
         display: flex;
         flex-direction: row;
-        margin-top: 50px;
+        position: absolute;
+        font-size: 1.2em;
+        font-weight: 600;
+        margin-top:  70px;
+        margin-left: 50px;
+        width: 2000%;
+        border-bottom: 2px solid #F2F2F2; padding-bottom: 10px;
         
-    }
-
-    nav{
-        flex-direction: row-reverse;
-        margin-right: 20px;
         
+     
     }
 
     #inscription{
-        margin-right: 50px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 1.2em;
+        
     }
 
+    .activity{
+        color: #0065FC;
+        margin-left: 30px;
+        
+    }
 
-    
+    .logement{
+        position: relative;
+        
+    }
 
+    .logo{
+        width: 100px;
+        height: 50px;
+    }
 
-    
+    .logo-box{
+        
+    }
+
 
 }
 
