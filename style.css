@@ -11,45 +11,74 @@ body
 
 header{
     display: flex;
-    flex-direction:row;
-    background-color: #fff;
+    flex-direction: row;
     justify-content: space-between;
     margin: 20px;
- }
-
-#logo{
-    width: 80px; height: 50px;
+    
 }
 
-nav{
- display: flex;
- flex-direction: row;
- justify-content: space-between;
- margin-top: 30px;
+
+#inscription{
+    font-size: 1em;
+    color: #0065FC;
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: 600;
+    
 }
 
-nav a {
- color:#0065FC ;
- text-decoration: none;
- margin-right: 10px;
+.activity{
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+.logement{
+    list-style: none;
+    text-decoration: none;
+    color: #0065FC;
+    
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    font-size: 1em;
+    margin-top: 20px;
+    margin-left: 855px;
 }
 
 nav a:hover{
- color: black;   
- border-top: 1px solid #0065FC; padding-top: 30px;
+      
+    border-top: 1px solid #0065FC; padding-top: 20px;
 }
+
+.inscriptions a:hover{
+    border-top: 1px solid #0065FC; padding-top: 20px;
+}
+
+
+
 
 #filtres_containers{
     display: flex;
     flex-direction: column;
 }
 
-.titres h1{
+.titres h2{
     font-size: 1.4em;
     font-weight: bold;
 }
 
-.titres h2{
+.titres h3{
     color:gray;
     font-size: 1.0em;
 }
@@ -99,8 +128,8 @@ input{
 #filtre i {
     color: #0065FC;
     font-size: 15px;
-    border-radius: 50%;
-    background-color:#F2F2F2 ;
+    border-radius: 100px;
+    background-color:#DEEBFF ;
     border: 1px solid #F2F2F2;
     padding: 10px;
     
@@ -110,7 +139,7 @@ input{
 {
     margin-right: 20px;
     border-radius: 25px;
-    border: 1px solid #0065FC ;
+    border: 2px solid #DEEBFF ;
     
 }
 
@@ -210,6 +239,7 @@ body{
 .etoile_bleu{
     font-size: 0.90em;
     color:#0065FC;
+    margin-right: -3px;
 }
 
 
@@ -233,10 +263,18 @@ body{
     
 }
 
+.card_header{
+    margin-left:10px;
+}
+
+.card_body{
+    margin-left: 10px;
+}
+
 
 
 #sidebar{
-  /*  flex: 1; */
+  
     display: flex;
     flex-direction: column ;
     justify-content: space-evenly;
@@ -356,7 +394,6 @@ body{
 #photo-la-pomegues{
     width: 305px;
     height: 215px;
-    box-shadow: 20px black;
     border-radius: 10px;
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
@@ -367,7 +404,7 @@ body{
 #photo-du-frioul{
     
     border-radius: 10px;
-    height: 102,5px;
+    height: 103px;
     width: 305px;
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
@@ -469,14 +506,14 @@ footer{
 }
 
 .pieds_page h1 p {
-    font-size: 0,85px;
+    font-size: 0.85em;
 }
 
 
 /* Mise en place des medias querries */
 
 
-@media (max-width: 1024px){
+@media (max-width: 700px){
 
     body{
         max-width: 100%;
@@ -523,10 +560,10 @@ footer{
           flex-direction: column ;
           width: 100%;
           margin-left:0;
-          padding: 0 px;
+          padding: 0px;
           border-radius: 10px;
           background-color: #f2f2f2;
-      }
+    }
 
     #premiere-ligne{
         display: flex;
@@ -689,10 +726,13 @@ footer{
         margin-top: 15px;
     }
 
+
     #filtre{
         display: flex;
         flex-direction: column;
+        
     }
+
 
     #filtre_box{
         margin-top: 10px;
@@ -709,19 +749,9 @@ footer{
     header{
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        
     }
 
-    .onglets{
-        display: flex;
-        flex-direction: row;
-    }
-
-    
-
-    /*.inscription:nth-child(3) {
-        background-color:
-    }*/
 
     #pieds-de-page{
         display: flex;
@@ -739,9 +769,47 @@ footer{
         font-size: 0.80em;
     }
 
+    header{
+        display: block;
+        flex-direction: row;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 1.2em;
+        font-weight: 600;
+        margin-top:  30px;
+        margin-left: 0px;
+        border-bottom: 2px solid #F2F2F2; padding-bottom: 10px;
+    }
+
+    #inscription{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 1.2em;
+    }
+
+    .activity{
+        color: #0065FC;
+        
+    }
+
+    .logement{
+        
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC ; padding-bottom: 10px;
+        
+    }
+
+    .logo{
+        width: 100px;
+        height: 50px;
+    }
 
 
-    
 
 }
 
