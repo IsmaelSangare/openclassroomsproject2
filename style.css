@@ -61,7 +61,7 @@ nav a:hover{
     border-top: 1px solid #0065FC; padding-top: 20px;
 }
 
-.inscriptions a:hover{
+.inscriptions:hover{
     border-top: 1px solid #0065FC; padding-top: 20px;
 }
 
@@ -83,24 +83,37 @@ nav a:hover{
     font-size: 1.0em;
 }
 
-input{
-    border-radius: 20px;
-    padding: 10px;
-    border: none;
+#search_bar{
+    display: flex;
+    margin-bottom: 15px;
 }
-
-.barre_recherche i {
-    padding: 10px;
-    background-color:#DEEBFF
+#search_bar span i{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 17px;
+    background-color: #F2F2F2;
 }
-
-#bouton{
-    color: #fff;
+.champ{
+    font-family: 'Raleway', sans-serif;
     padding: 10px;
-    margin: 7px;
+    border: 2px solid  #F2F2F2;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.button{
+    font-family: 'Raleway', sans-serif;
+    border: 1px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     background-color: #0065FC;
-    border-radius: 0px 8px 8px 0px ;
-    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+    width: 120px;
+    cursor: pointer;
+}
+.loupe{
+    display: none;
 }
 
 #filtre{
@@ -189,6 +202,33 @@ body{
     flex-direction: row;
 }
 
+#search_bar{
+    display: flex;
+    justify-content: flex-start;
+}
+.button{
+    display: none;
+}
+.loupe{
+    display: flex;
+    border-radius: 15px;
+    border: 1px;
+    padding: 0;
+    position: relative;
+    right: 8px;
+}
+i.fas.fa-search{
+    color: white;
+    background-color: #0065FC;
+    padding: 16px;
+    border-radius: 14px;
+    font-size: 17px;
+}
+.champ{
+    border-right: 0;
+    font-size: 1em;
+}
+
 #hebergement-box{
     flex: 2; 
     height: 650px;
@@ -204,6 +244,7 @@ body{
     font-size: 1.2em;
     justify-content: flex-start;
     margin-left: 40px;
+    margin-top: 50px;
 
 }
 
@@ -393,7 +434,7 @@ body{
 
 #photo-la-pomegues{
     width: 305px;
-    height: 215px;
+    height: 250px;
     border-radius: 10px;
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
@@ -404,7 +445,7 @@ body{
 #photo-du-frioul{
     
     border-radius: 10px;
-    height: 103px;
+    height: 115px;
     width: 305px;
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
@@ -523,6 +564,10 @@ footer{
         flex-direction: column-reverse;
         align-items: center;
         max-width: 100%;
+    }
+
+    main{
+        margin: 0px;
     }
 
     #hebergement-box{
@@ -793,7 +838,7 @@ footer{
     }
 
     .activity{
-        color: #0065FC;
+        color: #000;
         
     }
 
